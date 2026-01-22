@@ -1,6 +1,6 @@
-# Python Assignments 1
+# Python Assignment 9
 
-This repository contains Python assignments for class homework, featuring practical exercises to enhance understanding and proficiency in Python programming.
+This assignment contains Python exercises for class homework, featuring practical exercises on functions and basic operations to enhance understanding and proficiency in Python programming.
 
 ---
 

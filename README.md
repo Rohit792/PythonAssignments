@@ -2,17 +2,35 @@
 
 This repository contains Python assignments for class homework, featuring practical exercises to enhance understanding and proficiency in Python programming.
 
-## 📋 Assignment Overview
-
-This assignment focuses on fundamental Python programming concepts including:
-- Function creation and usage
-- User input handling
-- Conditional logic
-- Mathematical operations
-- Comparison operations
+**Completed by:** Rohit A. Sonawane
 
 ---
- 
+
+## 📂 Assignments
+
+| Assignment | Topics Covered | Difficulty |
+|------------|----------------|------------|
+| [Assignment 9](Assingment9/) | Functions, Basic I/O | Beginner |
+| [Assignment 10](Assignment10/) | Loops, Mathematical Operations | Beginner |
+| [Assignment 11](Assignment11/) | Number Theory, String Operations | Intermediate |
+| [Assignment 12](Assignment12/) | Character/String Operations, Calculations | Intermediate |
+| [Assignment 13](Assignment13/) | Geometry, Number Systems, Grading | Intermediate |
+
+---
+
+## 📋 Core Concepts Covered
+
+These assignments focus on fundamental Python programming concepts including:
+
+- **Functions**: Creation, parameters, and return values
+- **User Input Handling**: `input()` function and type conversion
+- **Conditional Logic**: `if-else` statements and logical operators
+- **Mathematical Operations**: Arithmetic, exponentiation, modulo
+- **Loops**: `for` and `while` loops for iteration
+- **String Operations**: Character checking, manipulation
+- **Number Theory**: Prime numbers, palindromes, factorials
+- **Data Validation**: Input checking and error handling
+
 ---
 
 ## 📝 Key Learning Outcomes
@@ -40,8 +58,6 @@ After completing this assignment, you will understand:
 ## 📚 Additional Resources
 
 - [Python Official Documentation](https://docs.python.org/3/)
-- [Python Functions Guide](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
-- [Python Operators](https://docs.python.org/3/library/operator.html)
 
 ---
 
