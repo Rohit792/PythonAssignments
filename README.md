@@ -51,7 +51,7 @@ After completing these assignments, you will understand:
 8. **Functional Programming** - Using higher-order functions to process collections efficiently
 
 ---
-
+ 
 ## 💡 Tips
 
 - Always test your programs with different inputs to ensure they work correctly
