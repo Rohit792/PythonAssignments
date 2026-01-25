@@ -15,6 +15,8 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 11](Assignment11/) | Number Theory, String Operations | Intermediate |
 | [Assignment 12](Assignment12/) | Character/String Operations, Calculations | Intermediate |
 | [Assignment 13](Assignment13/) | Geometry, Number Systems, Grading | Intermediate |
+| [Assignment 14](Assignment14/) | Lambda Functions, Anonymous Functions | Intermediate |
+| [Assignment 15](Assignment15/) | Higher-Order Functions (map, filter, reduce) | Advanced |
 
 ---
 
@@ -30,12 +32,14 @@ These assignments focus on fundamental Python programming concepts including:
 - **String Operations**: Character checking, manipulation
 - **Number Theory**: Prime numbers, palindromes, factorials
 - **Data Validation**: Input checking and error handling
+- **Lambda Functions**: Anonymous functions for concise operations
+- **Functional Programming**: `map()`, `filter()`, `reduce()` functions
 
 ---
 
 ## 📝 Key Learning Outcomes
 
-After completing this assignment, you will understand:
+After completing these assignments, you will understand:
 
 1. **Function Definition and Invocation** - How to create and call functions with and without parameters
 2. **User Input Handling** - How to accept and process user input using `input()` and type conversion
@@ -43,6 +47,8 @@ After completing this assignment, you will understand:
 4. **Mathematical Operations** - Performing calculations using operators like `**` (exponentiation) and `%` (modulo)
 5. **Conditional Logic** - Making decisions in code using `if` statements and logical operators
 6. **Code Organization** - Structuring programs with proper function separation and `main()` function
+7. **Lambda Functions** - Writing concise anonymous functions for simple operations
+8. **Functional Programming** - Using higher-order functions to process collections efficiently
 
 ---
 
