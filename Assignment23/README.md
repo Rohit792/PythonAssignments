@@ -56,7 +56,11 @@ Current balance of Rohit is 1200.0
 Current balance of Mangesh is 200
 Please enter amount to deposit: 300
 Please enter amount to Withdraw: 50
-### Problem 3: Numbers Class
+```
+
+---
+
+### Problem3: Numbers Class
 Write a Python program to implement a class named `Numbers` with the following specifications:
 - The class should contain one instance variable:
     - `Value`
