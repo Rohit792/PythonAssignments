@@ -23,6 +23,8 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 19](Assignment19/) | Functional Programming (filter, map, reduce) | Advanced |
 | [Assignment 20](Assignment20/) | Multithreading, Thread Creation & Execution | Advanced |
 | [Assignment 21](Assignment21/) | Advanced Threading, Locks, Synchronization | Advanced |
+| [Assignment 22](Assignment22/) | Classes, Instance Variables, Methods | Intermediate |
+| [Assignment 23](Assignment23/) | Class Variables, Constructors, OOP | Intermediate |
 
 ---
 
@@ -45,6 +47,9 @@ These assignments focus on fundamental Python programming concepts including:
 - **Multithreading**: Thread creation, execution, and management
 - **Thread Synchronization**: Locks, shared resources, race condition prevention
 - **Concurrent Programming**: Running multiple threads simultaneously
+- **Object-Oriented Programming**: Classes, objects, instance and class variables
+- **Constructors**: Initialization using `__init__` method
+- **Instance Methods**: Creating methods that operate on object data
 
 ---
 
@@ -58,6 +63,10 @@ After completing these assignments, you will understand:
 9. **Module Creation** - How to create custom modules and import them into programs
 10. **List Processing** - Working with lists, filtering, mapping, and reducing data
 11. **Pattern Generation** - Creating various patterns using loops and conditional logic
+15. **Object-Oriented Programming** - Creating classes with attributes and methods
+16. **Class vs Instance Variables** - Understanding the difference between shared and object-specific data
+17. **Constructor Methods** - Initializing objects using the `__init__` method
+18. **Encapsulation** - Organizing related data and functions within classes
 12. **Multithreading** - Creating and managing multiple threads for concurrent execution
 13. **Thread Synchronization** - Using locks to prevent race conditions and manage shared resources
 14. **Concurrent Data Processing** - Processing data simultaneously using multiple threadsues
