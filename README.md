@@ -25,6 +25,8 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 21](Assignment21/) | Advanced Threading, Locks, Synchronization | Advanced |
 | [Assignment 22](Assignment22/) | Classes, Instance Variables, Methods | Intermediate |
 | [Assignment 23](Assignment23/) | Class Variables, Constructors, OOP | Intermediate |
+| [Assignment 29](Assignment29/) | File Handling, File Operations, Command Line Args | Intermediate |
+| [Assignment 30](Assignment30/) | File I/O, Reading & Writing Files | Intermediate |
 
 ---
 
@@ -50,6 +52,9 @@ These assignments focus on fundamental Python programming concepts including:
 - **Object-Oriented Programming**: Classes, objects, instance and class variables
 - **Constructors**: Initialization using `__init__` method
 - **Instance Methods**: Creating methods that operate on object data
+- **File Handling**: Reading, writing, and manipulating files
+- **File Operations**: Checking existence, copying, comparing files
+- **Command Line Arguments**: Processing input from command line using `sys.argv`
 
 ---
 
@@ -64,6 +69,10 @@ After completing these assignments, you will understand:
 10. **List Processing** - Working with lists, filtering, mapping, and reducing data
 11. **Pattern Generation** - Creating various patterns using loops and conditional logic
 15. **Object-Oriented Programming** - Creating classes with attributes and methods
+19. **File I/O Operations** - Reading from and writing to files using built-in Python functions
+20. **File Existence Checking** - Using `os.path.exists()` to verify file presence
+21. **Command Line Arguments** - Processing user input from command line with `sys.argv`
+22. **File Comparison** - Comparing contents of multiple files programmatically
 16. **Class vs Instance Variables** - Understanding the difference between shared and object-specific data
 17. **Constructor Methods** - Initializing objects using the `__init__` method
 18. **Encapsulation** - Organizing related data and functions within classes
