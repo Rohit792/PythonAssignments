@@ -1,0 +1,20 @@
+--------------------------------------------------
+---------------THIS IS FILE LOGGER----------------
+--------------------------------------------------
+
+Source Directory to search in:  Demo
+File Extention to search for:  .txt
+
+The following files with extension .txt were found
+Directory: Demo
+tread_sync3.txt
+tread_sync2.txt
+tread_sync1.txt
+pdf_sample.txt
+
+Directory: Demo/TextFolder
+Demo1.txt
+Demo Data.txt
+--------------------------------------------------
+-----------THIS IS THE END OF FILE LOGGER---------
+--------------------------------------------------

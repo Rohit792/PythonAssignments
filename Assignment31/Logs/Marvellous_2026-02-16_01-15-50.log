@@ -1,0 +1,66 @@
+--------------------------------------------------
+---------------THIS IS Copy Directory----------------
+--------------------------------------------------
+
+
+Directory 'Demo' successfully copied to 'Temp'.
+
+Source FIles
+________________________________
+Directory: Demo
+IndiGo-Airlines-logo-vector-01.svg
+Test Files.pdf
+tread_sync3.txt
+tread_sync2.txt
+tread_sync1.txt
+image1.png
+image2.png
+images.png
+
+
+Directory: Demo/pdfData
+Flight Ticket.pdf
+Return Ticket.pdf
+pdf_sample.txt
+
+
+Directory: Demo/pdfData/Testt
+
+
+Directory: Demo/TextFolder
+Demo1.txt
+Demo Data.txt
+
+
+
+Copied Destination Files
+________________________________
+Directory: Temp
+IndiGo-Airlines-logo-vector-01.svg
+Test Files.pdf
+tread_sync3.txt
+tread_sync2.txt
+tread_sync1.txt
+image1.png
+image2.png
+images.png
+
+
+Directory: Temp/pdfData
+Flight Ticket.pdf
+Return Ticket.pdf
+pdf_sample.txt
+
+
+Directory: Temp/pdfData/Testt
+
+
+Directory: Temp/TextFolder
+Demo1.txt
+Demo Data.txt
+
+
+
+--------------------------------------------------
+-----------THIS IS THE END OF Copy Directory---------
+--------------------------------------------------

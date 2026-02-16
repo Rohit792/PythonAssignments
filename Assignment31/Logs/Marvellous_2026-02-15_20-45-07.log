@@ -1,0 +1,41 @@
+--------------------------------------------------
+---------------THIS IS FILE LOGGER----------------
+--------------------------------------------------
+
+Source Directory to search in :  Demo
+File Extention to search for  :  .doc
+
+
+File Extention to Replace with:  .doc
+
+
+--------------------------------------------------
+The following files with before replace with .doc
+Directory: Demo
+tread_sync2.doc
+tread_sync3.doc
+tread_sync1.doc
+
+Directory: Demo/pdfData
+pdf_sample.doc
+
+Directory: Demo/TextFolder
+Demo Data.doc
+Demo1.doc
+
+--------------------------------------------------
+The following files with after replaced with .doc by .txt.
+Directory: Demo
+tread_sync2.txt
+tread_sync3.txt
+tread_sync1.txt
+
+Directory: Demo/pdfData
+pdf_sample.txt
+
+Directory: Demo/TextFolder
+Demo Data.txt
+Demo1.txt
+----------------------------------------------------------------------------------------------------
+-----------THIS IS THE END OF FILE LOGGER---------
+--------------------------------------------------

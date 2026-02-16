@@ -27,6 +27,7 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 23](Assignment23/) | Class Variables, Constructors, OOP | Intermediate |
 | [Assignment 29](Assignment29/) | File Handling, File Operations, Command Line Args | Intermediate |
 | [Assignment 30](Assignment30/) | File I/O, Reading & Writing Files | Intermediate |
+| [Assignment 31](Assignment31/) | Directory Automation, File Copying, Command Line | Advanced |
 
 ---
 
@@ -55,6 +56,9 @@ These assignments focus on fundamental Python programming concepts including:
 - **File Handling**: Reading, writing, and manipulating files
 - **File Operations**: Checking existence, copying, comparing files
 - **Command Line Arguments**: Processing input from command line using `sys.argv`
+- **Directory Operations**: Creating, copying, and managing directories
+- **Automation Scripts**: Creating reusable scripts for file system automation
+- **Error Handling**: Exception handling for robust file operations
 
 ---
 
@@ -73,6 +77,8 @@ After completing these assignments, you will understand:
 20. **File Existence Checking** - Using `os.path.exists()` to verify file presence
 21. **Command Line Arguments** - Processing user input from command line with `sys.argv`
 22. **File Comparison** - Comparing contents of multiple files programmatically
+23. **Directory Automation** - Automating file system tasks like copying and organizing files
+24. **Error Handling in File Operations** - Managing exceptions when working with files and directories
 16. **Class vs Instance Variables** - Understanding the difference between shared and object-specific data
 17. **Constructor Methods** - Initializing objects using the `__init__` method
 18. **Encapsulation** - Organizing related data and functions within classes
