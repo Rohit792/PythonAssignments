@@ -28,6 +28,7 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 29](Assignment29/) | File Handling, File Operations, Command Line Args | Intermediate |
 | [Assignment 30](Assignment30/) | File I/O, Reading & Writing Files | Intermediate |
 | [Assignment 31](Assignment31/) | Directory Automation, File Copying, Command Line | Advanced |
+| [Assignment 32](Assignment32/) | File Checksums, Duplicate Detection, Automation | Advanced |
 
 ---
 
@@ -58,6 +59,10 @@ These assignments focus on fundamental Python programming concepts including:
 - **Command Line Arguments**: Processing input from command line using `sys.argv`
 - **Directory Operations**: Creating, copying, and managing directories
 - **Automation Scripts**: Creating reusable scripts for file system automation
+- **Checksum Calculation**: Computing MD5/SHA checksums for file integrity
+- **Duplicate File Detection**: Identifying duplicate files using checksums
+- **Logging**: Writing script output to log files for tracking
+- **Performance Measurement**: Tracking script execution time
 - **Error Handling**: Exception handling for robust file operations
 
 ---
@@ -75,6 +80,10 @@ After completing these assignments, you will understand:
 15. **Object-Oriented Programming** - Creating classes with attributes and methods
 19. **File I/O Operations** - Reading from and writing to files using built-in Python functions
 20. **File Existence Checking** - Using `os.path.exists()` to verify file presence
+25. **Checksum Calculation** - Computing file checksums using hashlib for integrity verification
+26. **Duplicate File Detection** - Using checksums to identify duplicate files across directories
+27. **Logging to Files** - Writing program output and errors to log files
+28. **Script Performance Measurement** - Using time module to track execution time
 21. **Command Line Arguments** - Processing user input from command line with `sys.argv`
 22. **File Comparison** - Comparing contents of multiple files programmatically
 23. **Directory Automation** - Automating file system tasks like copying and organizing files

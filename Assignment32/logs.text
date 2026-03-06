@@ -1,0 +1,31 @@
+--------------------------------------------------
+---------------THIS IS FILE LOGGER----------------
+--------------------------------------------------
+
+Source Directory to search in:  demo
+
+
+--------------------
+
+List of Duplicate files are: 
+
+index: 0
+Found Duplicate of File: demo/candidate_bulk_upload_template.numbers
+Deleted File name: demo/images/duplicate.txt
+--------------------
+
+index: 1
+Found Duplicate of File: demo/images/male3.jpg
+Deleted File name: demo/images/screenShots/male3.jpg
+--------------------
+
+index: 2
+Found Duplicate of File: demo/rohit-resume.pdf
+Deleted File name: demo/images/screenShots/rohit-resume-duplicate.pdf
+--------------------
+
+Script executed in 0.01 seconds.
+
+--------------------------------------------------
+-----------THIS IS THE END OF FILE LOGGER---------
+--------------------------------------------------
