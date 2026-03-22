@@ -29,6 +29,7 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 30](Assignment30/) | File I/O, Reading & Writing Files | Intermediate |
 | [Assignment 31](Assignment31/) | Directory Automation, File Copying, Command Line | Advanced |
 | [Assignment 32](Assignment32/) | File Checksums, Duplicate Detection, Automation | Advanced |
+| [Assignment 39](Assignment39/) | Machine Learning, Decision Trees, Model Evaluation | Advanced |
 
 ---
 
@@ -64,6 +65,14 @@ These assignments focus on fundamental Python programming concepts including:
 - **Logging**: Writing script output to log files for tracking
 - **Performance Measurement**: Tracking script execution time
 - **Error Handling**: Exception handling for robust file operations
+- **Machine Learning**: Building predictive models using scikit-learn
+- **Data Analysis**: Exploratory Data Analysis (EDA) with pandas
+- **Decision Trees**: Classification models for prediction
+- **Model Training**: Training ML models with training datasets
+- **Model Evaluation**: Accuracy, confusion matrix, classification reports
+- **Train-Test Split**: Dividing datasets for training and testing
+- **Data Visualization**: Creating plots with matplotlib
+- **Hyperparameter Tuning**: Optimizing model parameters for better performance
 
 ---
 
@@ -73,32 +82,40 @@ After completing these assignments, you will understand:
 
 1. **Function Definition and Invocation** - How to create and call functions with and without parameters
 2. **User Input Handling** - How to accept and process user input using `input()` and type conversion
-3. **Comparison Operations** - Using comparison operators to evaluate relationships between val
-9. **Module Creation** - How to create custom modules and import them into programs
-10. **List Processing** - Working with lists, filtering, mapping, and reducing data
-11. **Pattern Generation** - Creating various patterns using loops and conditional logic
-15. **Object-Oriented Programming** - Creating classes with attributes and methods
-19. **File I/O Operations** - Reading from and writing to files using built-in Python functions
-20. **File Existence Checking** - Using `os.path.exists()` to verify file presence
-25. **Checksum Calculation** - Computing file checksums using hashlib for integrity verification
-26. **Duplicate File Detection** - Using checksums to identify duplicate files across directories
-27. **Logging to Files** - Writing program output and errors to log files
-28. **Script Performance Measurement** - Using time module to track execution time
-21. **Command Line Arguments** - Processing user input from command line with `sys.argv`
-22. **File Comparison** - Comparing contents of multiple files programmatically
-23. **Directory Automation** - Automating file system tasks like copying and organizing files
-24. **Error Handling in File Operations** - Managing exceptions when working with files and directories
-16. **Class vs Instance Variables** - Understanding the difference between shared and object-specific data
-17. **Constructor Methods** - Initializing objects using the `__init__` method
-18. **Encapsulation** - Organizing related data and functions within classes
-12. **Multithreading** - Creating and managing multiple threads for concurrent execution
-13. **Thread Synchronization** - Using locks to prevent race conditions and manage shared resources
-14. **Concurrent Data Processing** - Processing data simultaneously using multiple threadsues
+3. **Comparison Operations** - Using comparison operators to evaluate relationships between values
 4. **Mathematical Operations** - Performing calculations using operators like `**` (exponentiation) and `%` (modulo)
 5. **Conditional Logic** - Making decisions in code using `if` statements and logical operators
 6. **Code Organization** - Structuring programs with proper function separation and `main()` function
 7. **Lambda Functions** - Writing concise anonymous functions for simple operations
 8. **Functional Programming** - Using higher-order functions to process collections efficiently
+9. **Module Creation** - How to create custom modules and import them into programs
+10. **List Processing** - Working with lists, filtering, mapping, and reducing data
+11. **Pattern Generation** - Creating various patterns using loops and conditional logic
+12. **Multithreading** - Creating and managing multiple threads for concurrent execution
+13. **Thread Synchronization** - Using locks to prevent race conditions and manage shared resources
+14. **Concurrent Data Processing** - Processing data simultaneously using multiple threads
+15. **Object-Oriented Programming** - Creating classes with attributes and methods
+16. **Class vs Instance Variables** - Understanding the difference between shared and object-specific data
+17. **Constructor Methods** - Initializing objects using the `__init__` method
+18. **Encapsulation** - Organizing related data and functions within classes
+19. **File I/O Operations** - Reading from and writing to files using built-in Python functions
+20. **File Existence Checking** - Using `os.path.exists()` to verify file presence
+21. **Command Line Arguments** - Processing user input from command line with `sys.argv`
+22. **File Comparison** - Comparing contents of multiple files programmatically
+23. **Directory Automation** - Automating file system tasks like copying and organizing files
+24. **Error Handling in File Operations** - Managing exceptions when working with files and directories
+25. **Checksum Calculation** - Computing file checksums using hashlib for integrity verification
+26. **Duplicate File Detection** - Using checksums to identify duplicate files across directories
+27. **Logging to Files** - Writing program output and errors to log files
+28. **Script Performance Measurement** - Using time module to track execution time
+29. **Machine Learning Fundamentals** - Understanding supervised learning and classification
+30. **Data Preprocessing** - Loading, cleaning, and preparing datasets for ML models
+31. **Decision Tree Classifiers** - Building and training decision tree models with scikit-learn
+32. **Model Evaluation Metrics** - Calculating accuracy, precision, recall, and F1-score
+33. **Confusion Matrix Analysis** - Interpreting True/False Positives/Negatives
+34. **Train-Test Splitting** - Properly dividing data for model training and validation
+35. **Overfitting/Underfitting Detection** - Comparing training vs testing accuracy
+36. **Making Predictions** - Using trained models to predict outcomes for new data
 
 ---
  
