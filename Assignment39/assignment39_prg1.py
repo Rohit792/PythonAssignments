@@ -193,7 +193,7 @@ def predictInteractiveUsing(model):
 
     prediction = model.predict(student_data)
     
-    print(f"\nPrediction: {'PASS ✅' if prediction[0] == 1 else 'FAIL ❌'}")
+    print(f"\nPrediction: {'PASS' if prediction[0] == 1 else 'FAIL'}")
 
 def StudentPerformance():
 
