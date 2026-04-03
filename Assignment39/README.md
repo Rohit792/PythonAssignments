@@ -12,14 +12,14 @@ Each row in the dataset represents one student, and each column represents a mea
 
 ### Features Description
 
-| Feature                | Description                                          |
-|------------------------|------------------------------------------------------|
-| `StudyHours`           | Number of hours a student studies per day             |
-| `Attendance`           | Percentage of class attendance                       |
-| `PreviousScore`        | Marks obtained in the previous examination           |
-| `AssignmentsCompleted` | Number of assignments completed by the student       |
-| `SleepHours`           | Average number of hours the student sleeps per day   |
-| `FinalResult`          | Target variable (Output): `1` → Pass, `0` → Fail    |
+| Feature                  | Description                                              |
+|--------------------------|----------------------------------------------------------|
+| `StudyHours`             | Number of hours a student studies per day                |
+| `Attendance`             | Percentage of class attendance                           |
+| `PreviousScore`          | Marks obtained in the previous examination               |
+| `AssignmentsCompleted`   | Number of assignments completed by the student           |
+| `SleepHours`             | Average number of hours the student sleeps per day       |
+| `FinalResult`            | Target variable (Output): `1` → Pass, `0` → Fail         |
 
 ### Objective of the Dataset
 
@@ -148,10 +148,10 @@ Step 1: Load Data set:
 28         8.2          96             78                     9           8            1
 29         1.8          63             44                     2           5            0
 ----------------------------------------
-Step 2: Data Analysis (EDS)
+Step 2: Data Analysis (EDA)
 ----------------------------------------
 Shape of dataset:  (30, 6)
-Colunm Name:  ['StudyHours', 'Attendance', 'PreviousScore', 'AssignmentsCompleted', 'SleepHours', 'FinalResult']
+Column Name:  ['StudyHours', 'Attendance', 'PreviousScore', 'AssignmentsCompleted', 'SleepHours', 'FinalResult']
 Missing values (per column)
 StudyHours              0
 Attendance              0
@@ -171,7 +171,7 @@ min      1.000000   60.000000      40.000000              2.000000    5.000000  
 75%      6.725000   88.750000      68.750000              7.000000    8.000000     1.000000
 max      8.500000   96.000000      80.000000              9.000000    8.000000     1.000000
 ----------------------------------------
- Step 3: Decide independant and Dependant veriables
+Step 3: Decide Independent and Dependent Variables
 ----------------------------------------
 
 Features: 
@@ -206,17 +206,17 @@ Shape of x_train:  (24, 5)
 Shape of x_test:  (6, 5)
 Shape of y_test:  (6,)
 Shape of y_train:  (24,)
-Model Sucessfully created:  DecisionTreeClassifier(max_depth=5, random_state=42)
+Model Successfully created:  DecisionTreeClassifier(max_depth=5, random_state=42)
 ----------------------------------------
-Step 6: Train the model
+Step 6: Train the Model
 ----------------------------------------
-Model traning complted
+Model training completed
 ----------------------------------------
-Step 7: Evaluate the model
+Step 7: Evaluate the Model
 ----------------------------------------
-Model Evaluation Testing completed
+Model Evaluation Testing Completed
 (6,)
-Expected output
+Expected Output:
 27    1
 15    0
 23    0
@@ -224,16 +224,19 @@ Expected output
 8     0
 9     0
 Name: FinalResult, dtype: int64
-Predicted output
+
+Predicted Output:
 [1 0 0 0 0 0]
 ----------------------------------------
-Step 8: Evaluate the model Performance
+Step 8: Evaluate the Model Performance
 ----------------------------------------
-Accuracy of model is:  100.0
-Confusion Matrics: 
+Accuracy of model is:  100.0%
+
+Confusion Matrix: 
 [[5 0]
  [0 1]]
-Classification Report
+
+Classification Report:
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00         5
@@ -244,8 +247,63 @@ Classification Report
 weighted avg       1.00      1.00      1.00         6
 
 ----------------------------------------
-Step 9: Plot confusion Matrix
+Step 9: Check Model Accuracy:
 ----------------------------------------
-```
+Training Accuracy:  100.0%
+Testing Accuracy:  100.0%
+Difference: 0.00%
+----------------------------------------
+Analysis on Data
+----------------------------------------
+Good Fit: Model generalizes well
+----------------------------------------
+Step 10: Plot Confusion Matrix
+----------------------------------------
 
-> Your code should include proper comments explaining each step.
+
+----------------------------------------
+Final Conclusion
+----------------------------------------
+Total Students:  30
+Features Used:  ['StudyHours', 'Attendance', 'PreviousScore', 'AssignmentsCompleted', 'SleepHours']
+
+Model Performance:
+----------------------------------------
+Max Depth: 5
+Training Accuracy:  100.0%
+Testing Accuracy:  100.0%
+Performance gap: 0.00%
+
+Model Quality Assessment
+----------------------------------------
+Good Fit: Model generalizes well
+
+Confusion Matrix Insights:
+----------------------------------------
+True Negatives (Correctly predicted Fail): 5
+False Positives (Wrongly predicted Pass): 0
+False Negatives (Wrongly predicted Fail): 0
+True Positives (Correctly predicted Pass): 1
+
+----------------------------------------
+Interactive Student Prediction
+----------------------------------------
+Enter student details:
+Study Hours per day: 2
+Attendance %: 80
+Previous Score: 90
+Assignments Completed: 4
+Sleep Hours per day: 10
+
+Prediction: PASS ✅
+----------------------------------------
+Interactive Student Prediction
+----------------------------------------
+Enter student details:
+Study Hours per day: 6
+Attendance %: 50
+Previous Score: 80
+Assignments Completed: 2
+Sleep Hours per day: 12
+
+Prediction: FAIL ❌

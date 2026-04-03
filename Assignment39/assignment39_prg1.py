@@ -112,8 +112,8 @@ def modelTraning(df):
     print(Y_pred)
 
     displayInformation("Step 8: Evaluate the model Performance")
-    accuracy = accuracy_score(y_test, Y_pred)
-    print("Accuracy of model is: ", accuracy*100)
+    test_accuracy = accuracy_score(y_test, Y_pred)
+    print("Accuracy of model is: ", test_accuracy*100)
 
     cm = confusion_matrix(y_test, Y_pred)
     print("Confusion Matrics: ")
@@ -122,12 +122,78 @@ def modelTraning(df):
     print("Classification Report")
     print(classification_report(y_test, Y_pred))
 
-    displayInformation("Step 9: Plot confusion Matrix")
+    displayInformation("Step 9: Check model accuracy:")
+    y_train_pred = model.predict(x_train)
+    traing_accuracy = accuracy_score(y_train, y_train_pred)
+
+    print("Trainign Accuracy: ", traing_accuracy * 100)
+    print("Testing Accuracy: ", test_accuracy * 100)
+    print(f"Difference: {(traing_accuracy - test_accuracy) * 100:.2f}%")
+
+    displayInformation("Analysis on data")
+    modelPerformance = ""
+    if traing_accuracy < 0.7 and test_accuracy < 0.7:
+        print("Underfitting: Model is too simple")
+        modelPerformance = "Underfitting: Model is too simple"
+    elif traing_accuracy > 0.95 and (traing_accuracy - test_accuracy) > 0.1:
+        print("Overfitting: Model is too complex")
+        modelPerformance = "Overfitting: Model is too complex"
+    else:
+        print("Good fit: Model generalises well")
+        modelPerformance = "Good fit: Model generalises well"
+
+
+    displayInformation("Step 10: Plot confusion Matrix")
     data = ConfusionMatrixDisplay(confusion_matrix = cm, display_labels = model.classes_)
     data.plot()
 
     plt.title = "Confusion matrics of Student Performance data set"
     plt.show()
+
+    print("\n\n")
+    displayInformation("Final conclusion")
+    print("Total Students: ", len(df))
+    print("Features used: ", list(df.drop("FinalResult", axis=1).columns))
+    print("\nModel Performance:")
+    print("-"*40)
+    print("Max Depth: 5")
+    print("Trainign Accuracy: ", traing_accuracy * 100)
+    print("Testing Accuracy: ", test_accuracy * 100)
+    print(f"Performance gap: {(traing_accuracy - test_accuracy) * 100:.2f}%")
+    print("\nModel Quality Assesment")
+    print("-"*40)
+    print(modelPerformance)
+    print(f"\n4. Confusion Matrix Insights:")
+    print("-"*40)
+    tn, fp, fn, tp = cm.ravel() if cm.size == 4 else (cm[0,0], cm[0,1], cm[1,0], cm[1,1])
+    print(f"True Negatives (Correctly predicted Fail): {tn}")
+    print(f"False Positives (Wrongly predicted Pass): {fp}")
+    print(f"False Negatives (Wrongly predicted Fail): {fn}")
+    print(f"True Positives (Correctly predicted Pass): {tp}")
+    predictInteractiveUsing(model)
+    predictInteractiveUsing(model)
+
+def predictInteractiveUsing(model):
+    displayInformation("Interactive Student Prediction")
+    
+    print("Enter student details:")
+    study_hours = float(input("Study Hours per day: "))
+    attendance = float(input("Attendance %: "))
+    previous_score = float(input("Previous Score: "))
+    assignments = int(input("Assignments Completed: "))
+    sleep_hours = float(input("Sleep Hours per day: "))
+    
+    student_data = pd.DataFrame({
+        'StudyHours': [study_hours],
+        'Attendance': [attendance],
+        'PreviousScore': [previous_score],
+        'AssignmentsCompleted': [assignments],
+        'SleepHours': [sleep_hours]
+    })
+
+    prediction = model.predict(student_data)
+    
+    print(f"\nPrediction: {'PASS ✅' if prediction[0] == 1 else 'FAIL ❌'}")
 
 def StudentPerformance():
 
