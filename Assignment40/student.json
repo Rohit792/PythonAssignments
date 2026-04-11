@@ -1,0 +1,37 @@
+[
+  {
+    "StudyHours": 6.0,
+    "Attendance": 70,
+    "PreviousScore": 65,
+    "AssignmentsCompleted": 8,
+    "SleepHours": 4
+  },
+  {
+    "StudyHours": 1.0,
+    "Attendance": 80,
+    "PreviousScore": 30,
+    "AssignmentsCompleted": 0,
+    "SleepHours": 10
+  },
+  {
+    "StudyHours": 2.0,
+    "Attendance": 80,
+    "PreviousScore": 75,
+    "AssignmentsCompleted": 9,
+    "SleepHours": 10
+  },
+  {
+    "StudyHours": 15.0,
+    "Attendance": 60,
+    "PreviousScore": 80,
+    "AssignmentsCompleted": 4,
+    "SleepHours": 12
+  },
+  {
+    "StudyHours": 7.0,
+    "Attendance": 65,
+    "PreviousScore": 75,
+    "AssignmentsCompleted": 6,
+    "SleepHours": 5
+  }
+]

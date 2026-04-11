@@ -30,6 +30,7 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 31](Assignment31/) | Directory Automation, File Copying, Command Line | Advanced |
 | [Assignment 32](Assignment32/) | File Checksums, Duplicate Detection, Automation | Advanced |
 | [Assignment 39](Assignment39/) | Machine Learning, Decision Trees, Model Evaluation | Advanced |
+| [Assignment 40](Assignment40/) | ML Student Performance, Feature Importance, Model Training | Advanced |
 
 ---
 
@@ -73,6 +74,12 @@ These assignments focus on fundamental Python programming concepts including:
 - **Train-Test Split**: Dividing datasets for training and testing
 - **Data Visualization**: Creating plots with matplotlib
 - **Hyperparameter Tuning**: Optimizing model parameters for better performance
+- **Feature Importance**: Analyzing which features contribute most to predictions
+- **Model Persistence**: Saving and loading trained models using pickle
+- **Feature Engineering**: Creating new features from existing data
+- **Manual Accuracy Calculation**: Understanding accuracy metrics from scratch
+- **Model Comparison**: Comparing models with different features and parameters
+- **Decision Tree Visualization**: Visualizing tree structure and decision paths
 
 ---
 
@@ -116,6 +123,14 @@ After completing these assignments, you will understand:
 34. **Train-Test Splitting** - Properly dividing data for model training and validation
 35. **Overfitting/Underfitting Detection** - Comparing training vs testing accuracy
 36. **Making Predictions** - Using trained models to predict outcomes for new data
+37. **Feature Importance Analysis** - Using `feature_importances_` to understand feature contribution
+38. **Model Persistence** - Saving trained models with pickle and loading them for predictions
+39. **Feature Engineering** - Creating derived features like PerformanceIndex from existing data
+40. **Manual Accuracy Calculation** - Computing accuracy without sklearn to understand metrics
+41. **Misclassification Analysis** - Identifying and analyzing incorrectly predicted samples
+42. **Random State Impact** - Understanding reproducibility in model training
+43. **Decision Tree Visualization** - Using `plot_tree()` to visualize model structure
+44. **Feature Selection** - Testing model performance with different feature subsets
 
 ---
  
