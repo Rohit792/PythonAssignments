@@ -31,6 +31,7 @@ This repository contains Python assignments for class homework, featuring practi
 | [Assignment 32](Assignment32/) | File Checksums, Duplicate Detection, Automation | Advanced |
 | [Assignment 39](Assignment39/) | Machine Learning, Decision Trees, Model Evaluation | Advanced |
 | [Assignment 40](Assignment40/) | ML Student Performance, Feature Importance, Model Training | Advanced |
+| [Assignment 41](Assignment41/) | K-Nearest Neighbors (KNN), Manual ML Implementation | Advanced |
 
 ---
 
@@ -80,6 +81,11 @@ These assignments focus on fundamental Python programming concepts including:
 - **Manual Accuracy Calculation**: Understanding accuracy metrics from scratch
 - **Model Comparison**: Comparing models with different features and parameters
 - **Decision Tree Visualization**: Visualizing tree structure and decision paths
+- **K-Nearest Neighbors (KNN)**: Manual implementation of KNN classification algorithm
+- **Euclidean Distance**: Calculating distance between points in 2D space
+- **Majority Voting**: Determining class labels based on neighbor votes
+- **Hyperparameter K**: Understanding the impact of K value on predictions
+- **Algorithm from Scratch**: Implementing ML algorithms without libraries
 
 ---
 
@@ -131,6 +137,11 @@ After completing these assignments, you will understand:
 42. **Random State Impact** - Understanding reproducibility in model training
 43. **Decision Tree Visualization** - Using `plot_tree()` to visualize model structure
 44. **Feature Selection** - Testing model performance with different feature subsets
+45. **KNN Algorithm** - Implementing K-Nearest Neighbors from scratch without libraries
+46. **Euclidean Distance Calculation** - Computing distances between points using math formulas
+47. **Majority Voting Logic** - Using dictionaries to count votes and determine winners
+48. **Hyperparameter Impact** - Understanding how K value affects classification results
+49. **Algorithm Visualization** - Displaying step-by-step voting and decision-making process
 
 ---
  
