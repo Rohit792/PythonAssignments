@@ -1,6 +1,7 @@
 """
 Question:
-
+This assignment implements the K-Nearest Neighbors (KNN) classification algorithm from scratch without using any machine learning libraries. 
+The program demonstrates how the value of K affects prediction results.
 """
 import math
 
