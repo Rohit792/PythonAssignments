@@ -25,6 +25,21 @@ def prediictClass(neighbors):
     print("="*50)
     return max(classVotes, key = classVotes.get)
 
+def print_distance_table(df, newPoint):
+    """Print a formatted table showing distance calculations"""
+    print("\n" + "="*80)
+    print("Euclidean Distance Calculation Table")
+    print("="*80)
+    print(f"{'Point':<8} {'X1':<8} {'Y1':<8} {'X2':<8} {'Y2':<8} {'EU-Distance':<15}")
+    print("-"*80)
+
+    x2, y2 = newPoint
+    for pointName, x1, y1, label in df:
+        distance = caculate_euclidean_distance((x1, y1), newPoint)
+        print(f"{pointName:<8} {x1:<8} {y1:<8} {x2:<8} {y2:<8} {distance:<15.4f}")
+
+    print("="*80)
+
 def getNearestNeighbours(df, newPoint, k_vlaue):
     distances = []
 
@@ -33,7 +48,7 @@ def getNearestNeighbours(df, newPoint, k_vlaue):
         distances.append((pointName, distance, lebal))
 
     distances.sort(key = lambda x : x[1])
-    
+
     for data in distances:
         print(data)
 
@@ -54,7 +69,8 @@ def main():
     newPoints = (x, y)
     k_value = [1, 3, 5]
 
-
+    # Display distance calculation table
+    print_distance_table(dataset, newPoints)
 
     for k in k_value:
         print("_"*40)
