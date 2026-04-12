@@ -48,10 +48,7 @@ def getNearestNeighbours(df, newPoint, k_vlaue):
         distances.append((pointName, distance, lebal))
 
     distances.sort(key = lambda x : x[1])
-
-    for data in distances:
-        print(data)
-
+ 
     return distances[:k_vlaue]
 
 def main():
